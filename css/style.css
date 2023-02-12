@@ -1,8 +1,20 @@
-@import url(https://fonts.googleapis.com/css?family=Readex+Pro:regular&display=swap);
-
-@import url(https://fonts.googleapis.com/css?family=Inter:regular&display=swap);
-
 @charset "UTF-8";
+
+@font-face {
+  font-family: ReadexPro;
+  font-display: swap;
+  src: url("../fonts/ReadexPro-Regular.woff2") format("woff2"), url("../fonts/ReadexPro-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
 
 * {
   padding: 0px;
@@ -27,7 +39,7 @@ body {
   color: #000;
   background-color: #F5F5F5;
   line-height: 1;
-  font-family: "Readex Pro";
+  font-family: ReadexPro;
   font-size: 0.875rem;
   font-weight: 400;
   text-rendering: optimizeLegibility;
@@ -41,7 +53,7 @@ body {
 input,
 button,
 textarea {
-  font-family: "Readex Pro";
+  font-family: ReadexPro;
   font-size: inherit;
 }
 
@@ -334,7 +346,7 @@ input[type=number] {
 }
 
 .text {
-  font-family: "Inter";
+  font-family: Inter;
   font-size: 0.875rem;
   line-height: 1.2142857143;
 }
@@ -353,7 +365,7 @@ input[type=number] {
 }
 
 .button {
-  font-family: "Inter";
+  font-family: Inter;
   text-transform: capitalize;
   font-size: 1.125rem;
   line-height: 1.2222222222;
@@ -363,7 +375,7 @@ input[type=number] {
 }
 
 .link {
-  font-family: "Inter";
+  font-family: Inter;
   font-size: 1.5rem;
   line-height: 1.2083333333;
   display: -webkit-box;
@@ -593,7 +605,7 @@ input[type=number] {
 }
 
 .menu-dropdown__link {
-  font-family: "Inter";
+  font-family: Inter;
   font-size: 0.875rem;
   line-height: 1.2142857143;
   text-transform: uppercase;
@@ -1217,7 +1229,7 @@ input[type=number] {
 }
 
 .list-items__item {
-  font-family: "Inter";
+  font-family: Inter;
   line-height: 1.25;
 }
 
@@ -1268,7 +1280,7 @@ input[type=number] {
   padding: 1.3125rem;
   background-color: transparent;
   outline: none;
-  font-family: "Inter";
+  font-family: Inter;
   font-size: 0.875rem;
   line-height: 1.2142857143;
 }
