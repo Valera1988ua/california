@@ -1249,20 +1249,18 @@ input[type=number] {
   overflow: hidden;
 }
 
-.looking__search::before {
-  content: "";
-  background: url("../img/icons/search.svg") 0 0/100% no-repeat;
+.looking__search:focus-within .looking__icon {
+  width: 0;
+}
+
+.looking__icon {
+  left: 0;
   width: 2.1875rem;
   height: 2.1875rem;
   margin-left: 1.5625rem;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-}
-
-.looking__search:focus-within::before {
-  width: 0rem;
-  height: 0rem;
 }
 
 .looking__input {
